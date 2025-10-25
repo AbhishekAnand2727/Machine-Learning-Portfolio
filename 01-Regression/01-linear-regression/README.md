@@ -1,4 +1,4 @@
-#Predicting Salaries based on years of Experience
+# Predicting Salaries based on years of Experience
 
 1) Dataset Used: Salary_Data.csv
 2) Model Used: Simple Linear Regression
