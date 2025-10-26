@@ -4,13 +4,13 @@ This file summarizes the performance of various regression models trained to pre
 
 ## Performance Metrics
 
-| Model                       | R2 Score (Train) | R2 Score (Test) | RMSE (Test) | Notes                                      |
+| Model                       | R2 Score (Train) | R2 Score (Test) | MSE (Test) | Notes                                      |
 | :-------------------------- | :--------------- | :-------------- | :---------- | :----------------------------------------- |
 | Multiple Linear Regression  | ~0.73\*          | 0.71            | 24.7        | Baseline linear model                      |
 | Polynomial Regression       | 0.93             | 0.91            | 8.6         | Degree 2 (Good fit, low overfitting)       |
 | Decision Tree Regression    | ---              | 0.81            | 16.4        | Performance depends heavily on `max_depth` |
 | Support Vector Regression   | ---              | 0.76            | 29.6        | Default parameters? Tuning might improve.  |
-| Random Forest (Tuned)       | 0.98             | 0.91            | 2.93        | Best parameters via GridSearchCV           |
+| Random Forest (Tuned)       | 0.98             | 0.91            | 8.53        | Best parameters via GridSearchCV           |
 
 
 ## Conclusion
