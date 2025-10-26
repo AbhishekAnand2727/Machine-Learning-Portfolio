@@ -19,3 +19,13 @@ Input features in order:
 
 Output variable:
 1) MEDV: Median value of owner-occupied homes in $100000's [k$]
+
+## How to Run
+## Dependencies: Ensure you have Python installed, along with the following libraries:
+
+pandas
+numpy
+scikit-learn
+seaborn
+matplotlib (You can install these using pip: pip install pandas numpy scikit-learn matplotlib)
+Execution: Open the file in Jupyter Notebook/Lab and run the cells in order.
