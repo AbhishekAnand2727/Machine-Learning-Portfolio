@@ -1,4 +1,4 @@
-# Boston House Prices-Advanced Regression Techniques
+# Boston House Prices- Predicting Median House Value of Owners
 
 ## Attribute Information
 
@@ -18,7 +18,7 @@ Input features in order:
 13) LSTAT: % lower status of the population
 
 Output variable:
-1) MEDV: Median value of owner-occupied homes in $100000's [k$]
+1) MEDV: Median value of owner-occupied homes in $100000
 
 ## How to Run
 ## Dependencies: Ensure you have Python installed, along with the following libraries:
