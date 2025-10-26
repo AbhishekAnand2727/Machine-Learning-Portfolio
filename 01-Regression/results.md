@@ -17,9 +17,12 @@ This file summarizes the performance of various regression models trained to pre
 
 Based on the test set performance (R2 Score and RMSE):
 
+This study find that the **Median Value of House prices** depends highly on the **Number of rooms per house** as well as the **Socio Economic Status of population**
+
 * **Polynomial Regression** and the **Tuned Random Forest** achieved the highest R2 scores (0.91) on the test data, indicating they captured the underlying patterns well.
 * The **Polynomial Regression** model showed the least overfitting (smallest gap between train and test R2 scores).
 * The **Tuned Random Forest**, while showing slight overfitting (0.98 train vs 0.91 test), also achieved a strong test R2 and a low RMSE (2.93).
 * Multiple Linear Regression provided a decent baseline, while the default SVR performed less effectively on this dataset.
 
 Depending on the priority (highest test accuracy vs. lowest overfitting), either the **Polynomial Regression** or the **Tuned Random Forest** could be considered the best model among those tested. **Polynomial Regression** is the best fitted model compared to **Tuned Random Forest** due to overfittting on the latter
+
