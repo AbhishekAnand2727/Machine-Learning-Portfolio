@@ -12,8 +12,6 @@ This file summarizes the performance of various regression models trained to pre
 | Support Vector Regression   | ---              | 0.76            | 29.6        | Default parameters? Tuning might improve.  |
 | Random Forest (Tuned)       | 0.98             | 0.91            | 2.93        | Best parameters via GridSearchCV           |
 
-\* *Note: Training R2 for MLR wasn't explicitly stated, estimated slightly higher than test.*
-*--- indicates the score was not explicitly mentioned or calculated in our conversation.*
 
 ## Conclusion
 
