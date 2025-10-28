@@ -4,7 +4,35 @@ This project focuses on forecasting store sales based on historical data using v
 
 ***
 
-### Aim and Approach
+## How to run(OPEN Store-Sales-Forecasting.ipynb to view the project)
+
+### 1. Setup
+
+You need **Python** installed along with these required libraries:
+
+* **pandas**
+* **numpy**
+* **scikit-learn**
+* **xgboost**
+* **jupyter**
+* **matplotlib**
+* **seaborn**
+
+### 2. Data Files
+
+Put all the raw data files (`.csv` files) into a folder named **`data/`** in the main project directory.
+
+### 3. Execution Steps
+
+1.  **Start Jupyter:** Launch the Jupyter Notebook or Jupyter Lab environment.
+2.  **Open File:** Open the **`Store-Sales-Forecasting.ipynb`** notebook.
+3.  **Run Cells:** Run all the code cells in the notebook from top to bottom.
+
+### 4. Output
+
+The predictions will be saved as a new file named **`submission.csv`** in the project directory.
+
+## Aim and Approach
 
 The primary objective of this project was to develop an **end-to-end time series forecasting pipeline**. I achieved this by:
 * Loading and merging **multiple data sources** (stores, oil prices, holidays, transactions).
