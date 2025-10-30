@@ -1,49 +1,3 @@
-# Ads Click-Through (CTR) Optimization
-
-The goal is to determine which of 10 different ad versions has the highest Click-Through Rate (CTR) in the shortest amount of time, thereby maximizing the total number of clicks.
-
-I implemented and compared two foundational algorithms: **Upper Confidence Bound (UCB)** and **Thompson Sampling**.
-
-
-## Dataset
-
-The dataset (`Ads_CTR_Optimisation.csv`) is a simulation representing **10,000 users** (or "rounds").
-* It contains 10 columns, one for each version of the ad.
-* Each row represents a user.
-* A `1` in a cell means that if this ad (`column`) was shown to this user (`row`), the user clicked it.
-* A `0` means the user did not click.
-
-The challenge is that the algorithm can only show **one** ad to each user. It must "explore" all 10 ads to find the best one, and then "exploit" that ad by showing it more often to maximize the total number of clicks.
-
----
-
-## Algorithms & Approaches
-
-I implemented two different algorithms to solve this **exploration-exploitation** dilemma:
-
-# Ads Click-Through (CTR) Optimization
-
-This repository contains a Reinforcement Learning project to solve the "Multi-Armed Bandit" problem. The goal is to determine which of 10 different ad versions has the highest Click-Through Rate (CTR) in the shortest amount of time, thereby maximizing the total number of clicks.
-
-I implemented and compared two foundational algorithms: **Upper Confidence Bound (UCB)** and **Thompson Sampling**.
-
----
-
-## Dataset
-
-The dataset (`Ads_CTR_Optimisation.csv`) is a simulation representing **10,000 users** (or "rounds").
-* It contains 10 columns, one for each version of the ad.
-* Each row represents a user.
-* A `1` in a cell means that if this ad (`column`) was shown to this user (`row`), the user clicked it.
-* A `0` means the user did not click.
-
-The challenge is that the algorithm can only show **one** ad to each user. It must "explore" all 10 ads to find the best one, and then "exploit" that ad by showing it more often to maximize the total number of clicks.
-
----
-
-## Algorithms & Approaches
-
-I implemented two different algorithms to solve this "explore-exploit" dilemma:
 
 # Ads Click-Through (CTR) Optimization
 
@@ -122,15 +76,4 @@ In contrast, Thompson Sampling **successfully identified Ad 5 as the most optima
 This experiment clearly demonstrates that **Thompson Sampling is the more powerful and efficient algorithm** for this dataset. It found the best ad and began maximizing the total reward in a fraction of the time it took the UCB algorithm, which was still exploring. For a business needing to find the best-performing ad quickly to maximize revenue, Thompson Sampling is the superior choice.
 
 
-## Results: UCB vs. Thompson Sampling
 
-While both algorithms eventually identify **Ad 5** as the clear winner after 10,000 rounds, the true test of efficiency is how *quickly* they converge on the best ad.
-
-To test this, I ran a comparative analysis limiting the simulation to only **500 rounds**.
-
-
-
-
-### Final Conclusion
-
-This experiment clearly demonstrates that **Thompson Sampling is the more powerful and efficient algorithm** for this dataset. It found the best ad and began maximizing the total reward in a fraction of the time it took the UCB algorithm, which was still exploring. For a business needing to find the best-performing ad quickly to maximize revenue, Thompson Sampling is the superior choice.
