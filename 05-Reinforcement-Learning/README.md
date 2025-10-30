@@ -33,6 +33,7 @@ I implemented two different algorithms to solve this "explore-exploit" dilemma:
 ### How UCB combines Exploration and Exploitation in the most optimal amount
 
 The algorithm will assign a **UCB Score** to each Ad which is **The Uncertainity Bonus** + **The Average Reward**. 
+
 **Exploration**:This score consists of **Confidence(or Uncertainity)** it tends to prioritize Ads which it has tested less compared to Ads which have been selected most of the time. **The Uncertainity Bonus** consits of  **whole root(1.5Logt/Ni(t))** where t is the number of rounds totally. Ni(t) is the number of times the Ad is chosen by the algorithm at that round depending on the UCB score.  
                             
 **Exploitation**:The score also consists of the **Average Reward** (**Ui(t)=Ri(t)/Ni()**) where **Ri(t)**: is the total number of clicks we have recieved from Ad i until round (t). **Ni(t)** is the total number of times the Ad is chosen by the algorithm at that round depending on the UCB score.(at round 0 it is 0)
