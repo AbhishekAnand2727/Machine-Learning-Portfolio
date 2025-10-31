@@ -33,9 +33,6 @@ This project requires Python 3 and the following libraries:
 * `apyori`
 * `networkx`
 
-The main library, `apyori`, can be installed via pip:
-```bash
-pip install apyori
 
 ![alt text](image.png)
 
