@@ -48,3 +48,9 @@ Hello! This repository contains a collection of my foundational projects in mach
 * Techniques: **Text Cleaning, Stemming, Stopword Removal**
 * Feature Extraction: **Bag of Words (BoW), TF-IDF**
 * Dataset: **Restaurant Review Sentiment Analysis** (Binary Classification)
+
+### [07 - Deep Learning](07-Deep-Learning/)
+
+* Models: **CustomCNN, CustomCNN Regularized, VGG16 Transfer Learning** (Used for classification)
+* Techniques: **Transfer Learning**
+* Dataset: **Cat vs Dog Classification** (Binary Classification)
